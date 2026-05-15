@@ -38,3 +38,17 @@ border: 5px solid #5bbe42;
 nav a:hover {
     color: #5bbe42;
 }
+.container-divisao {
+    display: flex;            /* Coloca os elementos lado a lado */
+    align-items: center;      /* Alinha os textos e a linha no meio verticalmente */
+    justify-content: center;  /* Centraliza todo o bloco na tela */
+    gap: 20px;                /* Cria um espaço igual de 20px entre os textos e a linha */
+}
+
+.linha-vertical {
+    border-left: 2px solid #000000; /* Cria a linha preta */
+    height: 150px;                  /* Define a altura da linha */
+}
+ footer{
+     background-color: gray ;
+ }
